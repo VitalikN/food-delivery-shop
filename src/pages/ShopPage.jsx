@@ -40,12 +40,10 @@ const ShopPage = () => {
       component="section"
       sx={{
         display: "flex",
-        alignItems: "flex-start",
-        // justifyContent: "space-around",
       }}
     >
       <Restaurant changeShopClick={changeShopClick} />
-      <Products shops={shops} changeShop={changeShop} />
+      {changeShop && <Products shops={shops} changeShop={changeShop} />}
     </Box>
   );
 };

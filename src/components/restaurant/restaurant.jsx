@@ -12,8 +12,9 @@ export const Restaurant = ({ changeShopClick }) => {
         border: 1,
         borderColor: "#1976d2",
         borderRadius: 2,
-        width: "25%",
+        width: "250px",
         mr: 4,
+        ml: 8,
       }}
     >
       <h1>Shops:</h1>
