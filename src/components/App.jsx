@@ -1,7 +1,7 @@
 import { Navigate, Routes, Route } from "react-router-dom";
 import SharedLayout from "./SharedLayout/SharedLayout";
-import ShopPage from "./pages/ShopPage";
-import ShoppingCartPage from "./pages/ShoppingCartPage";
+import ShopPage from "../pages/ShopPage";
+import ShoppingCartPage from "../pages/ShoppingCartPage";
 
 export const App = () => {
   return (

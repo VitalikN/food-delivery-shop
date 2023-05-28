@@ -31,8 +31,8 @@ const SharedLayout = () => {
       <Box
         component="main"
         sx={{
-          display: "flex",
-          // justifyContent: "center",
+          // display: "flex",
+          // // justifyContent: "center",
           minHeight: "calc(100vh - 65px)",
           pt: 8,
           pb: 3,

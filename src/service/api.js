@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3001/api/";
+axios.defaults.baseURL = "https://food-delivery-g9zn.onrender.com/api/";
 export const fetchShops = async () => {
   const { data } = await axios.get(`/products`);
   return data;
